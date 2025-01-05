@@ -1,0 +1,333 @@
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+__vsc_regex_environment="^CYGWIN*|MINGW*|MSYS*"
+[[ "$(uname -s)" =~ $__vsc_regex_environment ]]
+__vsc_is_windows=0
+__vsc_regex_histcontrol=".*(erasedups|ignoreboth|ignoredups).*"
+[[ "$HISTCONTROL" =~ $__vsc_regex_histcontrol ]]
+__vsc_history_verify=1
+builtin unset __vsc_regex_environment
+builtin unset __vsc_regex_histcontrol
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+__vsc_stable="$VSCODE_STABLE"
+unset VSCODE_STABLE
+[ "$__vsc_stable" = "0" ]
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+psql --username=freecodecmap --dbname=periodic_table
+psql --username=freecodecamp --dbname=periodic_table
+psql --username=freecodecamp --dbname=periodic_table
+pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
+psql --username=freecodecamp --dbname=periodic_table
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+__vsc_regex_environment="^CYGWIN*|MINGW*|MSYS*"
+[[ "$(uname -s)" =~ $__vsc_regex_environment ]]
+__vsc_is_windows=0
+__vsc_regex_histcontrol=".*(erasedups|ignoreboth|ignoredups).*"
+[[ "$HISTCONTROL" =~ $__vsc_regex_histcontrol ]]
+__vsc_history_verify=1
+builtin unset __vsc_regex_environment
+builtin unset __vsc_regex_histcontrol
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+__vsc_stable="$VSCODE_STABLE"
+unset VSCODE_STABLE
+[ "$__vsc_stable" = "0" ]
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+mkdir periodic_table
+cd periodic_table/
+git init
+git status
+git branch main
+git checkout -b main
+branch
+git branch
+git status
+git branch
+touch element.sh
+chmod +x element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh 1
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+psql --username=freecodecamp --dbname=periodic_tabl
+psql --username=freecodecamp --dbname=periodic_table
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh He
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh helium
+./element.sh helium
+./element.sh helium
+./element.sh helium
+./element.sh helium
+chmod +x test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+clear
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./element.sh
+./element.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./test.sh
+./element.sh
+./element.sh
+./element.sh
+git status
+git add .
+git status
+git commit -m "feat: element.sh file with working logic, base to work with"
+git status
+git log
+git log --oneline
+clear
+./element.sh
+./element.sh 1
+./element.sh
+./element.sh
+./element.sh
+git rebaes -i HEAD~2
+git rebase -i HEAD~2
+git rebase -i HEAD~2
+git status
+git add element.sh
+git rebase -i
+git rebase -i main HEAD~2
+git rebase -i main HEAD
+git commit -m "fix: change in echo if element not found"
+git rebase -i main HEAD
+__vsc_prompt_cmd_original
+git status
+git rebase --continue
+git log --oneline
+git commit --amend
+git rebase -i HEAD~2
+git rebase -i
+git rebase -i
+git rebase -i main
+git rebase -i HEAD~1
+git log --oneline
+git rebase -i 7877c6d^
+git rebase -i 7877c6d
+git rebase -i 2806da4
+git log --oneline
+git log --oneline
+git log
+git rebase -i
+git checkout -b fix/first-commit
+git rebase -i
+git rebase -i main
+git rebase -i HEAD~2
+git branch main
+git checkout main
+git branch -d fix/first-commit
+git brach
+git branch
+git stauts
+git status
+git log
+git log --oneline
+git rebase -i --root
+./element.sh
+./element.sh
+./element.sh 1
+./element.sh
+./element.sh
+./element.sh
+./element.sh 1
+clear
+./element.sh 1
+./element.sh
+./element.sh
+./element.sh 1
+./element.sh He
+./element.sh Helium
+./element.sh helium
+clear
+pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table2.sql
+git status
+git add element.sh
+git commit -m "feat: added functionality to check for missing input"
+git status
+git log --oneline
+git add element.sh
+git status
+git commit -m "feat: added comments for readability"
+git add element.sh
+git commit -m "feat: added even more comments for readability"
+git log --oneline
+./element.sh
+./element.sh
+__vsc_prompt_cmd_original
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+./element.sh
+git log
+git log --oneline
+git rebase -i --root
+git add .
+git rebase -i --root
+git commit -m "fix: proper script exec"
+git rebase -i --root
+git log --oneline
+./element.sh
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+git add element.sh
+git commit -m "fix: final touches"
+clear
+./element.sh 1
+./element.sh Neon
+git add element.sh
+git commit -m "fix: more final touches"
+git log --oneline
+git add element.sh
+git commit -m "test: final test passes all the requirements."
